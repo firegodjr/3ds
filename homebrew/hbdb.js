@@ -94,7 +94,7 @@ $.getJSON(json_file, function(json) {
         });
     };
 
-    $('.title').click(function() {
+    $('.list li').click(function() {
         id = $(this).parent().attr('id');
         showDetails();
     });
